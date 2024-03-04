@@ -1,0 +1,534 @@
+    body {
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .d-flex {
+        display: flex;
+        align-items: center;
+    }
+
+    .head {
+        background-color: #eeeeee;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .head-icon {
+        margin-right: 400px;
+        display: flex;
+        align-items: center;
+    }
+
+    .head-icon button {
+        border: none;
+        color: #666666;
+        font-weight: bold;
+        font-size: 12px;
+
+    }
+
+    .head-icon img {
+        margin-right: 5px;
+    }
+
+
+    .english button {
+        background-color: #ffffff;
+        border: none;
+        width: 80px;
+        height: 30px;
+    }
+
+    /* start old */
+
+    .navbar {
+        display: none;
+    }
+
+    /* old end */
+    /* start nav */
+    nav {
+        background-color: #ffffff;
+        border: 4px solid aliceblue;
+        width: 100%;
+        height: 80px;
+        display: inline;
+
+    }
+
+    nav ul .logo {
+        line-height: 80px;
+        width: 200px;
+        padding: 8px 0px;
+
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        list-style: none;
+    }
+
+    nav ul a {
+        text-decoration: none;
+        color: #000000;
+        /* font-size: 20px; */
+
+    }
+
+    .h-1 {
+        color: #0d6efd;
+
+    }
+
+    #btn-1 {
+        background-color: #93c94a;
+    }
+
+    /* na end */
+
+
+    .first {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 70px;
+    }
+
+    .left {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+
+    .right img {
+        width: 400px;
+    }
+
+
+
+    .explore {
+        width: 150px;
+        border: 1px solid #000000;
+        border-radius: 5px;
+        margin-left: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -10px;
+    }
+
+    .explore button {
+        width: 130px;
+        height: 40px;
+        font-size: 12px;
+        border: none;
+        background-color: #ffffff;
+    }
+
+    /* first-step compeleted */
+
+
+
+    .what {
+        width: fit-content;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .second {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 15px;
+
+    }
+
+    .second-div {
+        width: 140px;
+        height: 160px;
+    }
+
+    .second button {
+        width: 130px;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border: none;
+        font-weight: bold;
+        border-radius: 10px;
+        background-color: #f0fcdb;
+
+    }
+
+    .second button:hover {
+        width: 135px;
+        height: 155px;
+        transition: 0.3s;
+    }
+
+    .donation {
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 10px;
+
+    }
+
+    .donation img {
+        width: 270px;
+        height: 270px;
+        border-radius: 10px;
+
+    }
+
+    .donation button {
+        border: none;
+        background-color: #ffffff;
+    }
+
+
+    .green-link {
+        width: 90%;
+        height: 40px;
+        border-radius: 5px;
+        background-color: #8dc63f;
+        position: relative;
+        top: -50px;
+        left: 15px;
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    /* second-step ended */
+
+
+
+    .footer-div {
+        background-color: #424242;
+        width: 100%;
+        height: 500px;
+    }
+
+
+    .footer-icons {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .footer-icons img {
+        width: 250px;
+    }
+
+    .social img {
+        width: 40px;
+        border-radius: 5px;
+
+    }
+
+    .social {
+        margin-right: 50px;
+    }
+
+
+
+    .footer-content {
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+        padding-top: 50px;
+        color: white;
+    }
+
+
+    .contact p {
+
+        font-size: 12px;
+    }
+
+
+    .copyright-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .approved {
+        width: 80%;
+        border-bottom: 0.5px solid #ffffff80;
+        border-top: 0.5px solid #ffffff80;
+        color: #ffffff;
+        font-size: 12px;
+
+
+    }
+
+    .ip-info {
+        width: 80%;
+        border-bottom: 0.5px solid #ffffff80;
+        color: #ffffff;
+        padding: 10px;
+
+    }
+
+    .copyright {
+        color: #ffffff;
+        margin-bottom: 0;
+    }
+
+
+
+
+
+
+
+
+    @media only screen and (max-width: 900px) {
+        .head-icon {
+            margin-right: 0px;
+
+        }
+
+        .head-icon button {
+            font-size: 10px;
+        }
+
+        .head {
+            height: 50px;
+        }
+
+
+        .donate {
+            width: 90%;
+            height: 40px;
+            margin: 0px;
+            margin-bottom: 5px;
+        }
+
+        .sponser {
+            width: 90%;
+            height: 40px;
+            margin: 0px;
+
+        }
+
+
+
+        .first {
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+            justify-content: center;
+        }
+
+        .left {
+
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            row-gap: 10px;
+        }
+
+        .left h3 {
+            width: 80%;
+            font-size: 15px;
+        }
+
+        .left p {
+            width: 90%;
+            font-size: 12px;
+        }
+
+        .right {
+         width: 350px;
+        margin-top: 20px;
+        
+        }
+
+        .explore {
+            width: 150px;
+            border: 1px solid #000000;
+            border-radius: 5px;
+            margin-left: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: -15px;
+        }
+
+        .explore button {
+            width: 130px;
+            height: 40px;
+            font-size: 12px;
+            border: none;
+            background-color: #ffffff;
+
+        }
+
+        .second {
+            display: flex;
+            row-gap: 40px;
+        }
+
+        .second button {
+            width: 90%;
+
+        }
+
+        .second button:hover {
+            width: 95%;
+            transition: 0.3s;
+        }
+
+
+
+        .donation img {
+            width: 100%;
+        }
+
+        .footer-div {
+            height: fit-content;
+            background-color: #424242;
+
+        }
+
+
+        .footer-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            row-gap: 20px;
+            text-align: center;
+
+
+        }
+
+        .contact {
+            text-align: center;
+            width: 80%;
+        }
+
+        .social {
+            margin-left: 50px;
+
+        }
+
+        .copyright-section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+        }
+
+        .approved {
+            width: 80%;
+            border-bottom: 0.5px solid #ffffff80;
+            border-top: 0.5px solid #ffffff80;
+
+        }
+
+
+
+        .ip-info {
+            width: 80%;
+            border-bottom: 0.5px solid rgba(202, 10, 10, 0.5);
+            color: #0d6db7;
+        }
+
+
+ nav{
+    display: none;
+}
+
+
+        .navbar {
+            display: block;
+        }
+
+
+        .saylani-image {
+            width: 200px;
+        }
+
+        .navbar {
+            border-bottom: 1px solid lightgray;
+            position: sticky;
+            top: -5px;
+            z-index: 1000;
+            background-color: #ffffff;
+        }
+
+        .navbar img {
+            margin-left: 60px;
+        }
+
+        #navbarNav {
+            margin-left: 40px;
+        }
+
+        .nav-link {
+            font-size: 13px;
+        }
+
+        .nav-link:hover {
+            border-bottom: 2px solid #8dc63f;
+        }
+
+        .donate {
+            width: 100px;
+            background-color: #0d6db7;
+            border: 1px solid #8dc63f;
+            border-radius: 5px;
+            font-size: 10px;
+            color: #ffffff;
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+
+        .blue {
+            color: blue;
+        }
+
+        .green {
+            color: #8dc63f;
+        }
+
+        .sponser {
+            color: #ffffff;
+
+            width: 100px;
+            font-size: 10px;
+
+            background-color: #8dc63f;
+            border: 1px solid #0d6db7;
+            border-radius: 5px;
+            margin-left: ;
+
+        }
+
+
+
+    }
